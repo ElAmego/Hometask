@@ -1,0 +1,99 @@
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 190px;
+  width: 450px;
+}
+
+h2 {
+  padding-top: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+p {
+  text-indent: 20px;
+  padding: 25px 15px;
+  line-height: 30px;  
+}
+
+/* header */
+header {
+  padding: 15px 0;
+  background-color: #8fbc8f;
+  text-align: center;
+}
+
+h1 {
+  word-spacing: 5px;
+  letter-spacing: 10px;
+  text-decoration: overline;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li:nth-child(1) {
+  letter-spacing: 5px;
+}
+
+ul li:nth-child(2) {
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #006400;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+ul li:nth-child(3) {
+  letter-spacing: 5px;
+  text-decoration: line-through;
+  text-decoration-color: #975845;
+}
+
+ul li:nth-child(4) {
+  letter-spacing: 5px;
+}
+
+ul li:nth-child(5) {
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #006400;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+/* Block Praga */
+.Praga {
+  margin-top: 30px;
+  margin-left: 50px;
+  background-color: #ffff00;
+  border: 4px dotted black;
+}
+
+/* Block Paris */
+.Paris {
+  margin-left: 1050px;
+  background-color: #9acd32;
+  border: 4px dashed black;
+}
+
+/* Block Germany */
+.Germany {
+  margin-left: 300px;
+  background-color: #9370db;
+  border: 4px dashed black;
+}
+
+/* Block Austria */
+.Austria {
+  margin-left: 820px;
+  background-color: #fa8072;
+  border: 4px dotted black;
+}
