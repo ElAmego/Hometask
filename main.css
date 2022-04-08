@@ -2,99 +2,195 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+ }
+
+
+ /* header */
+ h1 {
+   text-decoration: underline;
+   text-decoration-style: double;
+   text-align: center;
+   margin-bottom: 110px;
+ }
+
+
+ /* charlotte section */
+ .charlotteImg {
+  width: 300px;
+  height: 200px;
+  border: 5px solid #405d66;
+  position: absolute;
+  right: 130px;
+  top: 60px;
 }
 
-div {
-  height: 190px;
-  width: 450px;
+ .charlotte {
+   background-color: #ceecf6;
+   width: 950px;
+   margin: auto;
+   padding: 50px 40px 30px 40px;
+   border: 3px solid #80a0ab;
+   border-left: 3px dashed #80a0ab;
+   border-bottom: 3px dashed #80a0ab;
+   margin-bottom: 55px;
+ }
+ 
+ .charlotte h2 {
+   text-decoration: underline;
+   padding-bottom: 40px;
+   color: #345864; 
+ }
+
+ .charlotte p:nth-of-type(1):first-letter {
+  color: #345864;
+  font-weight: 600;
+  font-size: 30px;   
+ }
+
+ .charlotte h3 {
+   padding: 20px 0;
+   color: #345864;
+ }
+ 
+ .charlotte ul>li {
+   margin-left: 30px;
+ }
+
+ /* Можно ли как-нибудь строчку ниже сделать короче? */
+ .charlotte ul>li:nth-child(even), .charlotte ol>li:nth-child(even) {
+  color: #345864;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
 }
 
-h2 {
-  padding-top: 25px;
-  text-align: center;
-  text-transform: uppercase;
-  font-style: italic;
+.charlotte ol>li {
+  margin-left: 40px;
 }
 
-p {
-  text-indent: 20px;
-  padding: 25px 15px;
-  line-height: 30px;  
-}
-
-/* header */
-header {
-  padding: 15px 0;
-  background-color: #8fbc8f;
-  text-align: center;
-}
-
-h1 {
-  word-spacing: 5px;
-  letter-spacing: 10px;
+.charlotte p:nth-of-type(2) {
+  padding-top: 50px;
   text-decoration: overline;
+  font-style: italic;   
+ }
+
+
+ /* tiramisu section */
+.tiramisuImg {
+  width: 300px;
+  height: 200px;
+  border: 5px solid #656565;
+  position: absolute;
+  right: 130px;
+  top: 960px;
 }
 
-ul li {
-  list-style-type: none;
+ .tiramisu {
+  background-color: #efefef;
+  width: 950px;
+  margin: auto;
+  margin-bottom: 110px;
+  padding: 50px 40px 30px 40px;
+  border: 3px solid #656565;
+  border-left: 3px dashed #656565;
+  border-bottom: 3px dashed #656565;
 }
 
-ul li:nth-child(1) {
-  letter-spacing: 5px;
-}
-
-ul li:nth-child(2) {
-  letter-spacing: 5px;
-  font-weight: 600;
-  color: #006400;
+.tiramisu h2 {
   text-decoration: underline;
-  text-decoration-style: dotted;
+  padding-bottom: 40px;
+  color: #656565; 
 }
 
-ul li:nth-child(3) {
-  letter-spacing: 5px;
-  text-decoration: line-through;
-  text-decoration-color: #975845;
+.tiramisu p:nth-of-type(1):first-letter {
+ color: #656565;
+ font-weight: 600;
+ font-size: 30px;   
 }
 
-ul li:nth-child(4) {
-  letter-spacing: 5px;
+.tiramisu h3 {
+  padding: 20px 0;
+  color: #656565;
 }
 
-ul li:nth-child(5) {
-  letter-spacing: 5px;
-  font-weight: 600;
-  color: #006400;
+.tiramisu ul>li {
+  margin-left: 30px;
+}
+
+.tiramisu ul>li:nth-child(odd), .tiramisu ol>li:nth-child(odd) {
+ color: #656565;
+ text-decoration: underline;
+ text-decoration-style: dashed;
+}
+
+.tiramisu ol>li {
+ margin-left: 40px;
+}
+
+.tiramisu p:nth-of-type(2) {
+ padding-top: 50px;
+ text-decoration: overline;
+ font-style: italic;
+ text-align: center;   
+}
+
+
+/* cookies section */
+.cookiesImg {
+  width: 300px;
+  height: 200px;
+  border: 5px solid #3c613c;
+  position: absolute;
+  right: 130px;
+  top: 1840px;
+}
+
+ .cookies {
+  background-color: #bad5ba;
+  width: 950px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 50px 40px 30px 40px;
+  border: 3px solid #3c613c;
+  border-left: 3px dashed #3c613c;
+  border-bottom: 3px dashed #3c613c;
+}
+
+.cookies h2 {
   text-decoration: underline;
-  text-decoration-style: dotted;
+  padding-bottom: 40px;
+  color: #3c613c; 
 }
 
-/* Block Praga */
-.Praga {
-  margin-top: 30px;
-  margin-left: 50px;
-  background-color: #ffff00;
-  border: 4px dotted black;
+.cookies p:nth-of-type(1):first-letter {
+ color: #3c613c;
+ font-weight: 600;
+ font-size: 30px;   
 }
 
-/* Block Paris */
-.Paris {
-  margin-left: 1050px;
-  background-color: #9acd32;
-  border: 4px dashed black;
+.cookies h3 {
+  padding: 20px 0;
+  color: #3c613c;
 }
 
-/* Block Germany */
-.Germany {
-  margin-left: 300px;
-  background-color: #9370db;
-  border: 4px dashed black;
+.cookies ul>li {
+  margin-left: 30px;
 }
 
-/* Block Austria */
-.Austria {
-  margin-left: 820px;
-  background-color: #fa8072;
-  border: 4px dotted black;
-  margin-bottom: 50px;
+.cookies ul>li:nth-child(3n+3), .cookies ol>li:nth-child(3n+3) {
+ color: #3c613c;
+ text-decoration: underline;
+ text-decoration-style: wavy;
+}
+
+.cookies ol>li {
+ margin-left: 40px;
+}
+
+.cookies p:nth-of-type(2) {
+ padding-top: 50px;
+ text-decoration: overline;
+ font-style: italic;
+ text-align: center;   
 }
