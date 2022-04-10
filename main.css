@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Jost', sans-seri60
  }
 
 
@@ -21,13 +22,13 @@
   height: 200px;
   border: 5px solid #405d66;
   position: absolute;
-  right: 130px;
-  top: 60px;
+  right: 125px;
+  top: 80px;
 }
 
  .charlotte {
    background-color: #ceecf6;
-   width: 950px;
+   width: 960px;
    margin: auto;
    padding: 50px 40px 30px 40px;
    border: 3px solid #80a0ab;
@@ -82,13 +83,13 @@
   height: 200px;
   border: 5px solid #656565;
   position: absolute;
-  right: 130px;
-  top: 960px;
+  right: 125px;
+  top: 1120px;
 }
 
  .tiramisu {
   background-color: #efefef;
-  width: 950px;
+  width: 960px;
   margin: auto;
   margin-bottom: 110px;
   padding: 50px 40px 30px 40px;
@@ -142,13 +143,13 @@
   height: 200px;
   border: 5px solid #3c613c;
   position: absolute;
-  right: 130px;
-  top: 1840px;
+  right: 125px;
+  top: 2150px;
 }
 
  .cookies {
   background-color: #bad5ba;
-  width: 950px;
+  width: 960px;
   margin: auto;
   margin-bottom: 10px;
   padding: 50px 40px 30px 40px;
