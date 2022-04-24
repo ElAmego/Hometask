@@ -2,72 +2,97 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-span {
-  color: white;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-/* header */
-header {
-  background-color: #8fbc8f;
-  width: 60%;
+.container {
+  max-width: 1200px;
+  width: 100%;
+  max-height: 779px;
   margin: auto;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  column-gap: 35px;
-  flex-wrap: wrap;
-  padding-bottom: 10px;
+h1, h2 {
+  display: grid;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
 }
 
 button {
   background-color: white;
   border: none;
   border-radius: 15px;
-  padding: 6px; 
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+/* header */
+header {
+  background-color: #8fbc8f;
+}
+
+.navigation ul {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 5px;
+  padding-bottom: 20px;
+  
+}
+
+.navigation ul>li {
+  display: grid;
+  justify-content: center;
 }
 
 /* main */
 main {
   background-color: #4682b4;
-  width: 60%;
-  margin: auto;
-  min-height: 600px;
   height: auto;
 }
 
-.sectionBlock {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.mainGrid {
+  display: grid;
   gap: 20px;
-  padding-bottom: 40px;
+  padding: 20px 20px;
+  
 }
 
-.block {
-  width: 200px;
-  height: 100px;
-  display: flex;
+.mainGrid div {
+  display: grid;
   justify-content: center;
   align-items: center;
   background-color: #3333b6;
-  color: white;
   font-size: 40px;
-  font-weight: 700;
+  color:white;
+  padding: 20px 0;
+}
+
+.mainGrid div:nth-child(3) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.mainGrid div:nth-child(6) {
+  grid-row-start: 3;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.mainGrid div:nth-child(9) {
+  grid-row-start: 4;
+  grid-row-end: 10;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 /* footer */
 footer {
   background-color: #87ceeb;
-  width: 60%;
-  margin: auto;
 }
+
