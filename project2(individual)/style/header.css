@@ -52,16 +52,15 @@
   column-gap: 10px;
 
   margin-right: 10px;
+  border: none;
 
   background-color: black;
-  border: none;
+  cursor: pointer;
 
   font-size: 12px;
   line-height: 16px;
   font-family: "PTSans-Regular";
   color: #969696;
-
-  cursor: pointer;
 }
 
 .authentication:active {

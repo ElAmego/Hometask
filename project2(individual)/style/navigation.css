@@ -41,17 +41,16 @@
 
 .navButton {
   padding: 31px 20.3px;
+  border: none;
+
+  background-color: #0F0F0F;
+  cursor: pointer;
 
   font-size: 14px;
   line-height: 18.12px;
   font-family: "PTSans-Regular";
   text-transform: uppercase;
   color: #969696;
-
-  background-color: #0F0F0F;
-  border: none;
-
-  cursor: pointer;
 }
 
 .navButton:active {
